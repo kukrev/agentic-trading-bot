@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: agentic-trading-system
+Version: 0.0.1
+Author: Vijay Kukreja
+Author-email: vj_1900@yahoo.com
+Requires-Dist: langchain
+Requires-Dist: lancedb
+Requires-Dist: langgraph
+Requires-Dist: tavily-python
+Requires-Dist: polygon
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist

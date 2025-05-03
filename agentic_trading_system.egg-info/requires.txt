@@ -1,0 +1,5 @@
+langchain
+lancedb
+langgraph
+tavily-python
+polygon
