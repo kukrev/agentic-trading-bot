@@ -1,8 +1,9 @@
 import os
 from dotenv import load_dotenv
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
+from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_google_genai import ChatGoogleGenerativeAI
-from config.config_loader import load_config
+from utils.config_loader import load_config
 
 class ModelLoader:
     """
@@ -38,4 +39,4 @@ class ModelLoader:
         model_name=self.config["llm"]["model_name"]
         gemini_model=ChatGoogleGenerativeAI(model=model_name)
         
-        return gemini_model  # Placeholder for future LLM loading logic
+        return gemini_model  # Placeholder for future LLM loading

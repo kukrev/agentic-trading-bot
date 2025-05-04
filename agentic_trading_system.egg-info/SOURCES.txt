@@ -1,12 +1,14 @@
 README.md
 setup.py
 agent/__init__.py
-agent/agents.py
+agent/workflow.py
 agentic_trading_system.egg-info/PKG-INFO
 agentic_trading_system.egg-info/SOURCES.txt
 agentic_trading_system.egg-info/dependency_links.txt
 agentic_trading_system.egg-info/requires.txt
 agentic_trading_system.egg-info/top_level.txt
+data_ingestion/__init__.py
+data_ingestion/ingestion_pipeline.py
 data_models/__init__.py
 data_models/models.py
 prompt_library/__init__.py

@@ -1,4 +1,5 @@
 agent
+data_ingestion
 data_models
 prompt_library
 toolkit
